@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    color: #ff0000;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    color: #808080;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    color: #808080;
+}
+
+img {
+    width: 20%;
+}
