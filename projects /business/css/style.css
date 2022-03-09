@@ -15,3 +15,15 @@ h2 {
 footer {
     text-align: center;
 }
+
+@media (max-width:450px) {
+
+    nav, footer {
+        margin: 450px;
+    }
+
+
+
+
+
+}
