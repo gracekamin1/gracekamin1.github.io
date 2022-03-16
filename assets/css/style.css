@@ -10,10 +10,35 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-p { color: #555755;
+p {
+    color: #555755;
     font-family: 'Times New Roman', Times, serif;
 }
-body{background-color: ivory;}
 
+body {
+    background-color: ivory;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+img {
+    width: 30%;
+    height: 2%;
+}
 
+ul {
+    color: #555755;
+    text-align: left;
+}
+
+h5 {
+    color: #555755;
+}
+
+a {
+    color: #555755;
+}
+
+ol {
+    text-align: center;
+}
