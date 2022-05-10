@@ -1,0 +1,220 @@
+.main-color{
+	background: #014461;
+}
+
+.secondary-color{
+	background: #6fbacf;
+}
+
+.cta{
+	background: #6fbacf;
+	background-color: #6fbacf;
+	border-radius: 0px;
+	border: none;
+	color:#ffffff;
+	padding:5px 15px;
+}
+
+.navbar{
+	background: #6fbacf;
+	border-top:25px solid #014461;
+}
+    
+
+.navbar a{
+	color:#333;
+	text-decoration: none;
+}
+
+.navbar a:hover{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+
+.flex-fill {
+  flex: 1;
+}
+
+.content-left{
+	padding: 2em 0em;
+	vertical-align: middle;
+}
+
+.content-right{
+	padding: 2em 0em;
+	vertical-align: middle;
+}
+
+.content-left{
+	font-size:1.4em;
+}
+
+.spacer{
+	margin: 15rem;
+	width:100%;
+}
+
+
+.skills {
+  animation-name: skills;
+}
+
+html,
+body,
+main {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section article.skills {
+  width: 450px;
+  height: auto;
+}
+section article.skills p {
+  z-index: 2;
+  color: #fff;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+section article.skills div span:nth-child(1) {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+}
+section article.skills div span:nth-child(2) {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #6fbacf;
+  height: 100%;
+}
+section article.skills div:nth-child(1) span:nth-child(2) {
+  width: 84%;
+  animation-delay: 0;
+}
+section article.skills div:nth-child(2) span:nth-child(2) {
+  width: 69%;
+  animation-delay: 0.05s;
+}
+section article.skills div:nth-child(3) span:nth-child(2) {
+  width: 51%;
+  animation-delay: 0.1s;
+}
+section article.skills div:nth-child(4) span:nth-child(2) {
+  width: 70%;
+  animation-delay: 0.15s;
+}
+section article.skills div:nth-child(5) span:nth-child(2) {
+  width: 75%;
+  animation-delay: 0.2s;
+}
+section article.skills div:nth-child(6) span:nth-child(2) {
+  width: 60%;
+  animation-delay: 0.25s;
+}
+section article.skills div:nth-child(7) span:nth-child(2) {
+  width: 80%;
+  animation-delay: 0.3s;
+}
+section article.skills div:nth-child(8) span:nth-child(2) {
+  width: 75%;
+  animation-delay: 0.35s;
+}
+
+.skills {
+  animation: skills 1.25s cubic-bezier(0.17, 0.67, 0, 1);
+}
+@keyframes skills {
+  0% {
+    left: -500px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.cta{
+		width: 100%;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+}
